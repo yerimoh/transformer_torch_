@@ -1,7 +1,13 @@
+#from datasets import load_dataset
+
+#print('Loading')
+#fr_en = load_dataset("wmt14", "fr-en")
+
+#train_data = fr_en["train"]['translation']
 
 from torchtext.legacy.data import Field, BucketIterator
-from torchtext.legacy.datasets.translation import Multi30k
-
+# from torchtext.legacy.datasets.translation import Multi30k
+from torchtext.legacy.datasets.translation import WMT14
 
 class DataLoader:
     source: Field = None
