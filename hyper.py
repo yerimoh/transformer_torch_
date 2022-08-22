@@ -1,10 +1,10 @@
 import torch
 
 # GPU device setting
-device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+device = torch.device("cuda:1" if torch.cuda.is_available() else "cpu")
 
 # model parameter setting
-batch_size = 128
+batch_size = 64
 max_len = 256
 d_model = 512
 n_layers = 6
