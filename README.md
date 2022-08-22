@@ -1,22 +1,14 @@
-# TRANSFORMER BASE MODEL
-This repo contains PyTorch implementation of the original transformer paper (:link: [Vaswani et al.](https://arxiv.org/abs/1706.03762)). <br/>
-It's aimed at making it **easy to start playing and learning** about transformers. <br/>   
+# TRANSFORMER(BASE)
+This repo contains PyTorch implementation of the original transformer paper 
+* [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf).      
+* [Conceptual organization](https://yerimoh.github.io/Lan/)   
 
-
-----
-
-## transformers
-[Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf).      
-
-[Conceptual organization](https://yerimoh.github.io/Lan/)
-
-![image](https://user-images.githubusercontent.com/76824611/185812078-0c77285e-fc57-445e-bef1-ed0645ecd355.png)
 
 
 ------
 
 
-## Machine translation
+# Machine translation
 
 Transformer was originally trained for the NMT (neural machine translation) task on the [WMT-14 dataset](https://torchtext.readthedocs.io/en/latest/datasets.html#wmt14) for:
 * English to German translation task (achieved 27.3 [BLEU score](https://en.wikipedia.org/wiki/BLEU))
