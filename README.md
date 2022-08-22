@@ -32,7 +32,7 @@ Transformer was originally trained for the NMT (neural machine translation) task
 -----
 
 
-# HOW to RUN
+# HOW to Train
 
 1. 이 레퍼지토리를 clone한다. ```git clone [this repo]```     
 2. 가상 환경을 설정한다(다른 토드들과 버전을 혼동하지 않기 위해   
@@ -51,4 +51,4 @@ Transformer was originally trained for the NMT (neural machine translation) task
 ----
 
 
-# 
+
