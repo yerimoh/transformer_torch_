@@ -46,5 +46,13 @@ please cheak more train in ```python train.py```
 
 ----
 
+# result
+논문과 같은 데이커셋, 하이퍼파라미터로 학습, 실험을 진행했다.
+
+| Model | Dataset | BLEU score |
+|:---:|:---:|:---:|
+| Original Paper's | WMT14 EN-DE | 25.8 |
+| This Model | WMT14 EN-DE  |  26.266 |
+
 
 
