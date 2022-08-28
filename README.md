@@ -42,7 +42,7 @@ Transformer was originally trained for the NMT (neural machine translation) task
 
 
 if you don't achive expected result, 
-please cheak more train
+please cheak more train in ```python train.py```
 
 ----
 
