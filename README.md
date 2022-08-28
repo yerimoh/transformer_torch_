@@ -40,6 +40,10 @@ Transformer was originally trained for the NMT (neural machine translation) task
  7. ```python -m spacy download en_core_web_sm de_core_news_sm``` 실행
  8. ```python train.py``` 실행
 
+
+if you don't achive expected result, 
+please cheak more train
+
 ----
 
 
